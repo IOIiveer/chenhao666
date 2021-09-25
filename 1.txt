@@ -1,2 +1,6 @@
-我是傻逼
-我也是傻逼
+提交 
+git add 1.txt
+git commit "上传一个txt"
+检查状态
+git status
+git diff 1.txt
