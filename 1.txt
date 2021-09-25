@@ -1,3 +1,5 @@
+git config --global user.name 'runoob'
+git config --global user.email test@runoob.com
 提交 
 git add 1.txt
 git commit "上传一个txt"
