@@ -6,3 +6,9 @@ git commit "上传一个txt"
 检查状态
 git status
 git diff 1.txt
+git log	
+git log --pretty=oneline
+上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100
+git reset --hard HEAD^
+git reset --hard 版本号前几位
+git reflog用来记录你的每一次命令
