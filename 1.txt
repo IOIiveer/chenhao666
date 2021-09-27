@@ -1,14 +1,22 @@
-git config --global user.name 'runoob'
-git config --global user.email test@runoob.com
+git config --global user.name 'shabi/chenhao'
+git config --global user.email 477@qq.com
 提交 
 git add 1.txt
-git commit "上传一个txt"
+git commit -m "上传一个txt"
 检查状态
 git status
 git diff 1.txt
 git log	
 git log --pretty=oneline
-上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100
+上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100写成HEAD~100
 git reset --hard HEAD^
 git reset --hard 版本号前几位
 git reflog用来记录你的每一次命令
+git diff HEAD -- 1.txt命令可以查看工作区和版本库里面最新版本的区别
+git checkout -- file 把最新版本的放到工作区
+git reset HEAD <file> 把最新版本的放到暂存区
+ssh-keygen -t rsa -C "xxxx@qq.com"
+git remote add origin git@github.com:IOIiveer/chenhao666.git
+git branch -M main
+git push -u origin main
+删除远程库，可以用git remote rm <name>
