@@ -20,3 +20,4 @@ git remote add origin git@github.com:IOIiveer/chenhao666.git
 git branch -M main
 git push -u origin main
 删除远程库，可以用git remote rm <name>
+git clone  git@github.com:IOIiveer/chenhao666.git
